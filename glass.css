@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(https://picsum.photos/id/301/4752/3168);
+  background-size: cover;
+}
+
+#contact-form {
+    background: rgba( 185, 57, 57, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 8.5px );
+-webkit-backdrop-filter: blur( 8.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 5%
+color: white;
+font family: sans_serif;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.contact-info{
+    width: 100%;
+}
+

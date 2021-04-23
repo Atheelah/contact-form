@@ -11,38 +11,51 @@ body {
   min-height: 100vh;
   background-image: url(https://picsum.photos/id/301/4752/3168);
   background-size: cover;
+  font-family: sans-serif;
 }
-
-#contact-form {
-  background: rgba( 185, 57, 57, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 8.5px );
-  -webkit-backdrop-filter: blur( 8.5px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  padding: 5%
-  color: white;
-  font family: sans_serif;
-  flex-direction: column;
+h1 {
+  margin-bottom: 20px;
+  display: flex;
   justify-content: center;
 }
 
-.contact-info{
-    width: 100%;
+#contact-form {
+  background: rgba(185, 57, 57, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 5% 10%;
+  color: white;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.contact-label{
+.contact-info,
+.contact-button {
+  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  padding: 10px;
+}
+
+.contact-label {
   display: none;
-  
 }
 
-contact-input::placeholder{
-  black
+.contact-input {
+  color: black;
+  display: flex;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 10px;
 }
 
-
-.contact-heading{
-  text transform: uppercase;
-  margin bottom: 10px
+.contact-heading {
+  padding-bottom: 10px;
 }
-

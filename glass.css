@@ -22,7 +22,7 @@ h1 {
 #contact-form {
   background: rgba(185, 57, 57, 0.25);
   box-shadow: 0 8px 32px 25px rgba(0, 0, 0, 0.37);
-  backdrop-filter: blur(8.5px);
+  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(8.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
